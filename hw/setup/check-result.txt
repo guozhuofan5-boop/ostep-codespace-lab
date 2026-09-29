@@ -5,36 +5,78 @@ codespaces: true
 codespace_name: sturdy-space-carnival-5vrgjjvvprv62pq7
 github_repository: guozhuofan5-boop/ostep-codespace-lab
 origin: https://github.com/guozhuofan5-boop/ostep-codespace-lab
-repo_head: 624bea6622cf7fbc1cbcd25557d7d4dd0f59f369
-homework_commit: 
+repo_head: 120e722e57156c15596065e19d990709d9903864
+homework_commit: afb36ca
 check_sh_sha256: 1ff6ace36d26d7a0e1e97453028d17e96c8bca4301f17ffcf4530c768c4c62f2
 kernel: 6.8.0-1064-azure
 os: Ubuntu 24.04.5 LTS
 cpus: 2
-boot_id: edfef770-3ff9-4140-ae56-507fbc2f53e4
-run_id: 2ee90b6f-6e70-4c84-be3c-6fe3c7306026
-started_utc: 2026-09-29T10:44:25Z
-finished_utc: 2026-09-29T10:44:31Z
-duration_ms: 6306
-result: PASS 12 / FAIL 7
+boot_id: 32d95c0a-3a5c-499c-b9a0-fc5861319ae2
+run_id: 0a97b7e8-bba2-4501-bfc2-4bc45219a52f
+started_utc: 2026-09-29T10:51:20Z
+finished_utc: 2026-09-29T10:51:43Z
+duration_ms: 23391
+result: PASS 61 / FAIL 0
 items:
-  PASS	Ubuntu 24.04	75
-  FAIL	python 명령 = Python 3	21
-  FAIL	tkinter	607
-  PASS	gcc 설치	45
-  PASS	make 설치	23
-  PASS	gdb 설치	44
-  PASS	strace 설치	32
-  FAIL	ltrace 설치	81
-  PASS	valgrind 설치	43
-  PASS	vmstat 설치	47
-  PASS	gdb로 프로그램 실행	3154
-  PASS	strace 권한	87
-  PASS	저장소 폴더	41
-  PASS	origin이 학생 fork	31
-  FAIL	ext/ostep-homework	12
-  FAIL	ext/ostep-code	15
-  FAIL	homework 버전 afb36ca	34
-  FAIL	ext/는 git 추적 제외	37
-  PASS	vmstat 실행	1031
-result_sha256: dcd0bcbb054998b4ed8343459188cc4ca71cc3ef8c58a9f564e43b52822950c8
+  PASS	Ubuntu 24.04	11
+  PASS	python 명령 = Python 3	562
+  PASS	tkinter	1494
+  PASS	gcc 설치	6
+  PASS	make 설치	4
+  PASS	gdb 설치	4
+  PASS	strace 설치	5
+  PASS	ltrace 설치	4
+  PASS	valgrind 설치	4
+  PASS	vmstat 설치	4
+  PASS	gdb로 프로그램 실행	2486
+  PASS	strace 권한	201
+  PASS	저장소 폴더	3
+  PASS	origin이 학생 fork	10
+  PASS	ext/ostep-homework	4
+  PASS	ext/ostep-code	4
+  PASS	homework 버전 afb36ca	11
+  PASS	ext/는 git 추적 제외	5
+  PASS	cpu-api/fork.py	90
+  PASS	cpu-api/generator.py	5164
+  PASS	cpu-intro/process-run.py	33
+  PASS	cpu-sched-lottery/lottery.py	31
+  PASS	cpu-sched-mlfq/mlfq.py	34
+  PASS	cpu-sched-multi/multi.py	35
+  PASS	cpu-sched/scheduler.py	32
+  PASS	dist-afs/afs.py	37
+  PASS	file-devices/process-run.py	34
+  PASS	file-disks/disk-precise.py	172
+  PASS	file-disks/disk.py	43
+  PASS	file-ffs/ffs.py	38
+  PASS	file-implementation/vsfs.py	34
+  PASS	file-integrity/checksum.py	31
+  PASS	file-journaling/fsck.py	37
+  PASS	file-lfs/lfs.py	39
+  PASS	file-raid/raid.py	33
+  PASS	file-ssd/ssd.py	35
+  PASS	threads-intro/x86.py	59
+  PASS	threads-locks/x86.py	66
+  PASS	vm-beyondphys-policy/paging-policy.py	34
+  PASS	vm-freespace/malloc.py	33
+  PASS	vm-mechanism/relocation.py	33
+  PASS	vm-paging/paging-linear-translate.py	37
+  PASS	vm-segmentation/segmentation.py	33
+  PASS	vm-smalltables/paging-multilevel-translate.py	37
+  PASS	homework/threads-api	274
+  PASS	homework/threads-cv	338
+  PASS	homework/threads-bugs	610
+  PASS	homework/vm-beyondphys	61
+  PASS	code/intro	205
+  PASS	code/cpu-api	210
+  PASS	code/vm-intro	52
+  PASS	code/threads-intro	107
+  PASS	code/threads-api	145
+  PASS	code/threads-cv	369
+  PASS	code/threads-sema	581
+  PASS	code/threads-bugs	283
+  PASS	code/dist-intro	344
+  PASS	helgrind가 경쟁 조건 탐지	794
+  PASS	mem 실행 (3초)	3005
+  PASS	vmstat 실행	1008
+  PASS	code/intro/cpu 실행	3005
+result_sha256: b53f9b9f8985e6a617ce0b97b41680cfc6e6460ea35b0947eb4735870c450709
